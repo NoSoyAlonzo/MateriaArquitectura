@@ -1,4 +1,4 @@
-module emails.emails {
+module emails.main {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -11,6 +11,8 @@ module emails.emails {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens emails.emails to javafx.fxml;
-    exports emails.emails;
+    opens emails.main to javafx.fxml;
+    exports emails.main;
+    exports emails.main.Interfaces;
+    opens emails.main.Interfaces to javafx.fxml;
 }

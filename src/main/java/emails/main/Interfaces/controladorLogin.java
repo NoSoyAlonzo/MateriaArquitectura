@@ -1,4 +1,4 @@
-package emails.main;
+package emails.main.Interfaces;
 
 
 import javafx.event.ActionEvent;

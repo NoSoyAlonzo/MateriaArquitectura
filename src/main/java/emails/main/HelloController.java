@@ -1,4 +1,4 @@
-package emails.emails;
+package emails.main;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
